@@ -1,0 +1,12 @@
+.header__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+}

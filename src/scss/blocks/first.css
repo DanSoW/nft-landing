@@ -1,0 +1,16 @@
+.first {
+  padding-top: 37px;
+  min-height: 100%;
+}
+
+.first__main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 130px;
+  font-family: "Oxanium";
+}

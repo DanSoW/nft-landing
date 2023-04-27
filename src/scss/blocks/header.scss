@@ -1,0 +1,64 @@
+.header {
+    margin-bottom: 100px;
+}
+
+.header__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Описание стиля для ссылки в header'e */
+.header__link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    position: relative;
+    
+    transition: all .3s;
+
+    &:hover {
+        color: $yellow;
+
+        &:after {
+            display: block;
+        }
+    }
+
+    /* Использование псевдоэлемента */
+    &:after{
+        content: '';
+        display: none;
+        background: $yellow;
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.header__links {
+    display: flex;
+    align-items: center;
+    margin-right: 160px;
+    gap: 60px;
+}
+
+.header__btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: $yellow;
+
+    background: rgba(233, 215, 167, 0.1);
+    padding: 20px 30px;
+    border: 1px solid $yellow;
+}

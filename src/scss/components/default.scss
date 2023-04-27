@@ -1,0 +1,65 @@
+body {
+  overflow-x: hidden;
+  position: relative;
+  color: $white2;
+  @include font('Work Sans', 400);
+
+  background: $black;
+  /*&.active-body {
+    overflow: hidden;
+  }*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 36px;
+}
+
+a,
+button {
+  color: $white2;
+}
+
+.container {
+  max-width: 1390px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: 'Oxanium';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 130px;
+  color: #F5FBF2;
+  position: relative;
+
+  span {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) translateX(-30%);
+    background: $purple;
+
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+  }
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+}

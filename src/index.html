@@ -1,0 +1,177 @@
+@@include('html/head.html', {
+"title": "Главная"
+})
+<!--18-->
+<main>
+	<div class="first">
+		@@include('html/header.html', {})
+
+		<div class="container">
+			<div class="first__main">
+				<div class="first__item">
+					<h1 class="h1">Explore, Buy and Sell the <span>Best NFTs!</span></h1>
+					<div class="first__btns">
+						<button class="first__btn">Explore</button>
+						<button class="first__btn2">Create</button>
+					</div>
+					<div class="first__numbers">
+						<div class="first__number">
+							<p>32k+</p>
+							Artworks
+						</div>
+						<div class="first__number">
+							<p>20k+</p>
+							Auctions
+						</div>
+						<div class="first__number">
+							<p>12k+</p>
+							Creators
+						</div>
+					</div>
+				</div>
+	
+				<div class="first__nft">
+					<div class="first-nft__header">
+						<div>
+							<p class="nft-header__title">Current Bid</p>
+							<p class="nft-header__numbers">0.99 ETH</p>
+						</div>
+						<div>
+							<p class="nft-header__title">Ends in</p>
+							<p class="nft-header__numbers">25 hrs</p>
+						</div>
+					</div>
+
+					<div class="first-nft__footer">
+						<div>
+							<p class="nft-footer__title">
+								Artist
+							</p>
+							<p class="nft-footer__nick">@wzard</p>
+						</div>
+						<button class="first-nft__btn">Start Bid</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<button class="first__arrow-btn">
+			<img src="img/icons/icons.svg#arrow-down" alt=""/>
+		</button>
+	</div>
+	<div class="companies">
+		<div class="container">
+			<div class="companies__main">
+				<img src="img/icons/icons.svg#company1" alt="company1" />
+				<img src="img/icons/icons.svg#company2" alt="company2" />
+				<img src="img/icons/icons.svg#company3" alt="company3" />
+				<img src="img/icons/icons.svg#company4" alt="company4" />
+			</div>
+		</div>
+	</div>
+	<div class="auctions">
+		<div class="container">
+			<div class="title-wrapper">
+				<h2 class="title title--purple"><span>Live Auctions</span></h2>
+			</div>
+			<div class="swiper auctions-slider">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide auctions-slide">
+						<div class="auctions__item">
+							<div class="auctions__img">
+								<img src="img/auctions/1.jpg" alt="auctions 1" />
+								<div>03:18:24</div>
+							</div>
+
+							<div class="auctions__profile">
+								<div class="auctions-profile__guy">
+									<img src="img/auctions/avatar1.png" alt="profile" />
+									<div>
+										<p class="auctions-profile__owner">Virtual Art</p>
+										<p class="auctions-profile__nick">by @wzard</p>
+									</div>
+								</div>
+								<div class="auctions-profile__likes">
+									<img src="img/icons/icons.svg#heart" alt="heart icon" />
+									<span>92</span>
+								</div>
+							</div>
+
+							<div class="auctions__bid">
+								 <p class="auctions-bid__title">Current Bid</p>
+								 <p class="auctions-bid__subtitle">4.89 ETH</p>
+							</div>
+
+							<button class="auctions__btn">Place a bid </button>
+						</div>
+					</div>
+					<div class="swiper-slide auctions-slide">
+						<div class="auctions__item">
+							<div class="auctions__img">
+								<img src="img/auctions/2.jpg" alt="auctions 1" />
+								<div>03:18:24</div>
+							</div>
+
+							<div class="auctions__profile">
+								<div class="auctions-profile__guy">
+									<img src="img/auctions/avatar1.png" alt="profile" />
+									<div>
+										<p class="auctions-profile__owner">Virtual Art</p>
+										<p class="auctions-profile__nick">by @wzard</p>
+									</div>
+								</div>
+								<div class="auctions-profile__likes">
+									<img src="img/icons/icons.svg#heart" alt="heart icon" />
+									<span>92</span>
+								</div>
+							</div>
+
+							<div class="auctions__bid">
+								 <p class="auctions-bid__title">Current Bid</p>
+								 <p class="auctions-bid__subtitle">4.89 ETH</p>
+							</div>
+
+							<button class="auctions__btn">Place a bid </button>
+						</div>
+					</div>
+					<div class="swiper-slide auctions-slide">
+						<div class="auctions__item">
+							<div class="auctions__img">
+								<img src="img/auctions/3.jpg" alt="auctions 1" />
+								<div>03:18:24</div>
+							</div>
+
+							<div class="auctions__profile">
+								<div class="auctions-profile__guy">
+									<img src="img/auctions/avatar1.png" alt="profile" />
+									<div>
+										<p class="auctions-profile__owner">Virtual Art</p>
+										<p class="auctions-profile__nick">by @wzard</p>
+									</div>
+								</div>
+								<div class="auctions-profile__likes">
+									<img src="img/icons/icons.svg#heart" alt="heart icon" />
+									<span>92</span>
+								</div>
+							</div>
+
+							<div class="auctions__bid">
+								 <p class="auctions-bid__title">Current Bid</p>
+								 <p class="auctions-bid__subtitle">4.89 ETH</p>
+							</div>
+
+							<button class="auctions__btn">Place a bid </button>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-button-prev swiper-button-prev1">
+					<img src="img/icons/icons.svg#arrow-right" alt="prev" />
+				</div>
+				<div class="swiper-button-next swiper-button-next1">
+					<img src="img/icons/icons.svg#arrow-right" alt="next" />
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+@@include('html/footer.html', {})
