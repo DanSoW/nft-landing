@@ -1,0 +1,60 @@
+.how__title {
+  font-family: "Oxanium";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 130px;
+  color: #F5FBF2;
+  display: flex;
+  justify-content: center;
+}
+
+.how-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  gap: 8px;
+}
+
+.how-icon {
+  display: flex;
+  justify-content: center;
+  background: #372839;
+  width: 106px;
+  height: 106px;
+  border-radius: 50%;
+}
+.how-icon img {
+  transform: scale(2.5);
+}
+
+.how-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #FFCE4E;
+  text-align: center;
+}
+
+.how__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.how__item-line {
+  display: flex;
+  justify-content: center;
+  width: 166px;
+  position: relative;
+}
+.how__item-line img {
+  position: absolute;
+  bottom: 25px;
+}
